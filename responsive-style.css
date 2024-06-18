@@ -1,0 +1,89 @@
+
+/*.. media query .......................................................................... ..*/
+@media (max-width: 1170px){
+	
+	.section-subtitle{
+		max-width: 60%;
+	}
+	
+
+
+    .banner_section .carousel-item{
+    	height: 90vh;
+    }
+
+}
+
+
+/* ............................................................................................. */
+@media (max-width: 991px){
+	
+
+.about .banner_section,
+.product .banner_section,
+.gallery .banner_section,
+.contact .banner_section{
+	padding-top:125px;
+	padding-bottom:30px;
+}
+	
+     .header .navbar{
+		background-size: cover;
+		padding: 20px;
+	}
+	.header .navbar-nav{
+		margin-top: 20px;
+	}
+	.header .navbar-nav .nav-link{
+		padding: 2px 5px;
+		margin-bottom: 10px;
+	}
+	.header .header_right span{
+		padding:2px 5px;
+	}
+
+	
+
+
+}
+/* ..................................................................................................................... */
+
+@media (max-width: 767px){
+
+
+	body,html{
+		font-size: 8px;
+	}
+	.section-subtitle{
+		max-width: 80%;
+	}
+
+
+
+	.banner_section{
+		min-height: 70vh;
+	}
+	.banner_section .carousel-item{
+    	height: 70vh;
+    }
+
+
+
+}
+
+/* ................................................................................. */
+@media (max-width: 590px){
+
+	body,html{
+		font-size:5px;
+	}
+	.banner_section .carousel-caption h3{
+	padding: 5px 15px;
+	font-size:25px;
+	width: 300px;
+	margin-top:70px;
+	text-align: center;
+	border-radius: 30px;
+}
+
+}
